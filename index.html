@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How AI Works – From the Ground Up</title>
+  <!-- Tailwind CSS CDN for quick styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Hero -->
+  <header class="bg-gradient-to-r from-indigo-600 to-purple-600 py-16">
+    <div class="max-w-3xl mx-auto px-4 text-center text-white">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">How AI Works – From the Ground Up</h1>
+      <p class="text-lg md:text-xl">A beginner‑friendly video course organised into eight bite‑sized sections</p>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <!-- Curriculum -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-6">What You'll Learn</h2>
+      <ol class="space-y-3 list-decimal list-inside">
+        <li>History &amp; Foundations of AI</li>
+        <li>Math Essentials – Linear Algebra &amp; Probability</li>
+        <li>Machine Learning Basics</li>
+        <li>Deep Learning &amp; Neural Networks</li>
+        <li>Natural Language Processing</li>
+        <li>Computer Vision Fundamentals</li>
+        <li>Ethics &amp; Safety in AI</li>
+        <li>Building Your First AI Project</li>
+      </ol>
+    </section>
+
+    <!-- Pricing & Payment -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-6">Enroll Now</h2>
+      <p class="mb-4">Lifetime access • 8 HD video lessons • Project files • Community Q&amp;A</p>
+      <p class="text-4xl font-bold mb-8">₹499</p>
+      <div class="flex flex-col md:flex-row gap-4">
+        <!-- Razorpay button -->
+        <a
+          href="https://rzp.io/l/REPLACE_WITH_YOUR_RAZORPAY_LINK"
+          class="bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-6 rounded-lg text-center"
+          >Pay with Razorpay</a
+        >
+        <!-- Stripe button -->
+        <a
+          href="https://buy.stripe.com/test_REPLACE_WITH_YOUR_STRIPE_LINK"
+          class="bg-gray-900 hover:bg-gray-800 text-white py-3 px-6 rounded-lg text-center"
+          >Pay with Stripe</a
+        >
+      </div>
+    </section>
+
+    <!-- Delivery info -->
+    <section class="border-t pt-8">
+      <h2 class="text-xl font-semibold mb-4">After Payment</h2>
+      <p>
+        You will automatically receive an email (within 5&nbsp;minutes) containing a private Google Drive link to all eight
+        video lessons. The folder is view‑only and cannot be downloaded.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-6">
+    <div class="max-w-3xl mx-auto px-4 text-center text-sm text-gray-600">
+      © <span id="year"></span> Your Name • Need help?
+      <a href="mailto:you@example.com" class="text-indigo-600 underline">contact us</a>
+    </div>
+  </footer>
+
+  <script>
+    // Auto‑update copyright year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
